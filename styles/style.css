@@ -24,6 +24,9 @@ a{
     display: flex;
     gap: 12px;
 }
+.links ul{
+    gap: 12px;
+}
 .header .logo-text{
     color: #F9FAF8;
     font-size: 24px;
