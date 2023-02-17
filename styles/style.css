@@ -23,9 +23,9 @@ a{
     display: flex;
     gap: 12px;
 }
-/*.header .logo-text{
+.header .logo-text{
     color: #F9FAF8;
-}*/
+}
 
 #hero{
     background-color: #1F2937;
