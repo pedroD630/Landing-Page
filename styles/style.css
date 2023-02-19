@@ -33,7 +33,7 @@ button{
 }
 .links ul{
     gap: 12px;
-    font-size: 18px;   
+    font-size: 14px;   
 }
 .links ul a, .welcome p{
     color: #c7c9cc;
@@ -43,17 +43,11 @@ button{
 }
 .header .logo-text{
     font-size: 24px;
+    font-weight: bold;
 }
 .welcome h2{
     font-size: 38px;
 }
-.home-image{
-    width: 500px;
-    min-height: 300px;
-    background-color: #c7c9cc;
-    flex-grow: 1;
-}
-
 .content{
     height: 60vh;
     display: flex;
@@ -62,15 +56,23 @@ button{
     margin: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 .welcome{
-    max-width: 900px;
-    flex-grow: 1;
+    width: 300px;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
     
 }
+.home-image{
+    width: 400px;
+    height: 300px;
+    background-color: #c7c9cc;
+    border-radius: 2px;
+}
+
 #hero{
     background-color: #1F2937;
 }
