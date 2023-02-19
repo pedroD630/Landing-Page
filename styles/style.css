@@ -31,11 +31,14 @@ a{
 .links ul a, .welcome p{
     color: #c7c9cc;
 }
-.header .logo-text, .welcome h2{
+.header .logo-text, .welcome h2, .wlc-buttons button{
     color: #F9FAF8;
 }
 .header .logo-text{
     font-size: 24px;
+}
+.welcome h2{
+    font-size: 38px;
 }
 
 #hero{
