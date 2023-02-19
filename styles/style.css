@@ -51,7 +51,7 @@ button{
 .content{
     height: 60vh;
     display: flex;
-    gap: 16px;
+    gap: 20px;
     align-items: center;
     margin: 30px;
     justify-content: center;
