@@ -31,8 +31,10 @@ a{
 .links ul a{
     color: #c7c9cc;
 }
-.header .logo-text{
+.header .logo-text, .welcome h2{
     color: #F9FAF8;
+}
+.header .logo-text{
     font-size: 24px;
 }
 
