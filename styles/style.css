@@ -49,9 +49,9 @@ button{
 }
 .home-image{
     width: 500px;
-    height: 300px;
+    min-height: 300px;
     background-color: #c7c9cc;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .content{
@@ -61,6 +61,15 @@ button{
     align-items: center;
     margin: 30px;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.welcome{
+    max-width: 900px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 #hero{
     background-color: #1F2937;
