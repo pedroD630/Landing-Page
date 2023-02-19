@@ -28,7 +28,7 @@ a{
     gap: 12px;
     font-size: 18px;   
 }
-.links ul a{
+.links ul a, .welcome p{
     color: #c7c9cc;
 }
 .header .logo-text, .welcome h2{
