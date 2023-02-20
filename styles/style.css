@@ -76,6 +76,13 @@ button{
 .home-footer{
     align-self: center;
 }
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #hero{
     background-color: #1F2937;
     display: flex;
