@@ -39,7 +39,7 @@ button{
 .links ul a, .welcome p{
     color: #c7c9cc;
 }
-.header .logo-text, .welcome h2, .wlc-buttons button{
+.header .logo-text, .welcome h2, .wlc-buttons button, .home-footer p{
     color: #F9FAF8;
 }
 .header .logo-text{
@@ -73,6 +73,11 @@ button{
     background-color: #c7c9cc;
     border-radius: 2px;
 }
+.home-footer{
+    align-self: center;
+}
 #hero{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
