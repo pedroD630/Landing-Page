@@ -6,7 +6,7 @@
 
 section{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 a{
     text-decoration: none;
@@ -50,7 +50,7 @@ button{
     font-size: 38px;
 }
 .content{
-    height: 60vh;
+    
     display: flex;
     gap: 20px;
     align-items: center;
