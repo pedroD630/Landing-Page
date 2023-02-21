@@ -118,3 +118,11 @@ button{
     display: flex;
     flex-direction: column;
 }
+#history{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
