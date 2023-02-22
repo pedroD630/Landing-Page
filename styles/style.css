@@ -12,13 +12,21 @@ a{
     text-decoration: none;
     color: black;
 }
-button{
+button, .call{
     background-color: #3882F6;
+}
+button{
     border-style: none;
     border-radius: 5px;
     text-align: center;
-    width: 100px;
-    height: 25px;
+    width: 110px;
+    height: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    font-size: 14px; 
 }
 .header{
     display: flex;
@@ -27,19 +35,12 @@ button{
     padding: 10px;
     margin-bottom: 5px;
 }
-.links ul, ul{
-    list-style: none;
-    display: flex;
-    gap: 12px;
-}
-.links ul{
-    gap: 12px;
-    font-size: 14px;   
-}
-.links ul a, .welcome p{
+/*g of gray*/
+.gtext{
     color: #c7c9cc;
 }
-.header .logo-text, .welcome h2, .wlc-buttons button, .home-footer p{
+/*w of white*/
+.wtext{
     color: #F9FAF8;
 }
 .header .logo-text{
@@ -50,7 +51,6 @@ button{
     font-size: 38px;
 }
 .content{
-    
     display: flex;
     gap: 20px;
     align-items: center;
@@ -64,8 +64,7 @@ button{
     flex-grow: 2;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 .home-image{
     width: 400px;
@@ -138,10 +137,7 @@ button{
     margin: 60px;
     flex-wrap: wrap;
     padding: 50px;
-    background-color: #3882F6;
-    border-radius: 10px;
-    color: #F9FAF8;
-    
+    border-radius: 10px; 
 }
 .footer{
     padding: 25px;
@@ -155,14 +151,9 @@ button{
     gap: 20px;
 }
 .call .call-button button{ 
-    background-color: #3882F6;
     border: 2px solid #F9FAF8;
-    color: #F9FAF8;
 }
 #big-p{
     font-size: 25px;
     font-weight: bold;
-}
-.footer p{
-    color: #F9FAF8;
 }
