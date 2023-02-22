@@ -75,9 +75,11 @@ button{
 }
 .home-footer{
     align-self: center;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
 .main{
-    padding: 20px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,11 +92,13 @@ button{
     margin-left: 10px;
     margin-right: 10px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .section-title{
     margin-bottom: 50px;
     font-size: 28px;
     font-weight: bold;
+    margin-top: 20px;
 }
 .box{
     width: 200px;
