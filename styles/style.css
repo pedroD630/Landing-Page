@@ -126,3 +126,38 @@ button{
     align-items: center;
 }
 
+.call{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    
+}
+.footer{
+    padding: 25px;
+    background-color: #1F2937;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin-top: auto;
+}
+.call .call-button button{ 
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+#big-p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer p{
+    color: #F9FAF8;
+}
