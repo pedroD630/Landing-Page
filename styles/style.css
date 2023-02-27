@@ -73,10 +73,13 @@ ul{
     background-color: transparent;
     border-radius: 2px;
     display: flex;
+    min-width: 0;
+    justify-content: center;
 }
 #perf-image{
     border-radius: 10%;
     border: thin solid #3882F6;
+    min-width: 0;
 }
 .home-footer{
     align-self: center;
