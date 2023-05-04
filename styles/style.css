@@ -12,15 +12,8 @@ a{
     text-decoration: none;
     color: black;
 }
-button, .call{
+.call{
     background-color: #3882F6;
-}
-button{
-    border-style: none;
-    border-radius: 5px;
-    text-align: center;
-    width: 110px;
-    height: 30px;
 }
 ul{
     list-style: none;
@@ -153,7 +146,6 @@ ul{
 .footer{
     padding: 25px;
     background-color: #1F2937;
-    width: 98vw;
     display: flex;
     justify-content: center;
     align-items: center;
